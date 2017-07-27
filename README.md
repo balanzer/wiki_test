@@ -10,11 +10,62 @@
 1. [Eclipse Setup](#eclipse-setup)
 1. [Tomcat Setup](#tomcat-setup)
 1. [Postman Setup](#postman-setup)
+
 ### Build ###
+
+Maven:
+```xml
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.0.3</version>
+      <scope>test</scope>
+</dependency>
+```
+
 ### Testing ###
+Maven:
+```xml
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.0.3</version>
+      <scope>test</scope>
+</dependency>
+```
+
 ### Sonar ###
+Maven:
+```xml
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.0.3</version>
+      <scope>test</scope>
+</dependency>
+```
+
 ### Code Coverage ###
+Maven:
+```xml
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.0.3</version>
+      <scope>test</scope>
+</dependency>
+```
+
 ### JSON Validation ###
+Maven:
+```xml
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.0.3</version>
+      <scope>test</scope>
+</dependency>
+```
 
 
 
