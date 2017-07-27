@@ -10,41 +10,11 @@
 1. [Eclipse Setup](#eclipse-setup)
 1. [Tomcat Setup](#tomcat-setup)
 1. [Postman Setup](#postman-setup)
-
-## Build ## (#build) 
-1
-
-2
-
-3
-
-4
-
-## Testing ## (#testing) 
-1
-
-2
-
-3
-
-4
+### Build ###
+### Testing ###
+### Sonar ###
+### Code Coverage ###
+### JSON Validation ###
 
 
-## Sonar ## (#sonar) 
-1
-
-2
-
-3
-
-4
-
-## Code Coverage ## (#coverage) 
-1
-
-2
-
-3
-
-4
 
