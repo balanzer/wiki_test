@@ -26,3 +26,22 @@
 
 ### JSON Validation ###
 
+
+
+### CRA REST Service ###
+
+
+### CRA Setup ###
+
+
+
+### CRA Setup Angular ###
+
+
+### Eclipse Setup ###
+
+
+### Tomcat Setup ###
+
+
+### Postman Setup ###
