@@ -104,7 +104,15 @@ Service: Change host name and port based on your application configuration
 [Top](#top)
 
 ### CRA Setup ###
-
+Service Setup:
+1. Fork skunkworks-insider repo - with your network ID
+1. Download CRA project from your GIT Repo - http://sdlcscm.hiw.com/users/<network-id>/repos/skunkworks-insider/browse
+1. git clone ssh://git@sdlcscm.hiw.com:7999/<network-id>/skunkworks-insider.git cra
+1. Nagivate to /cra/skunkworks-insider/src/internaltools
+1. build - [Build](#build)
+1. tomcat - [Tomcat Setup](#tomcat-setup)
+1. Validate Service - [CRA REST Service](#cra-rest-service) or using postman [Postman Setup](#postman-setup) 
+1. Validate UI - [CRA Setup Angular](#cra-setup-angular)
 
 [Top](#top)
 
@@ -118,6 +126,8 @@ Format & Save Actions for Java/Java Script/Type Script:
 
 1. Format & Cleanups - import confiurations from skunkworks-insider\eclipse_format
 1. Save Actions - Refer Murali eclipse setup for now(To be added asap)
+1. Import project (Dont not import UI project)
+1. Create new workspace for Angular Project 
 
 [Top](#top)
 
