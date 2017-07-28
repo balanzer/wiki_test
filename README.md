@@ -123,6 +123,18 @@ Sonarqube:
 
 ### Sonar Installation ###
 
+1. Download Sonar <a href="https://www.sonarqube.org/downloads/">Latest version</a>
+1. Extract or Install to local (let's say in "C:\sonarqube" or "/etc/sonarqube")
+1. Start the SonarQube server
+```xml
+On Windows, execute:
+C:\sonarqube\bin\windows-x86-xx\StartSonar.bat
+ 
+On other operating system, execute:
+/etc/sonarqube/bin/[OS]/sonar.sh console
+```
+1.Browse the results at http://localhost:9000 (default System administrator credentials are admin/admin)
+
 [Top](#top)
 
 
