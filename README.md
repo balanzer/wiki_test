@@ -117,6 +117,17 @@ Service Setup:
 [Top](#top)
 
 ### CRA Setup Angular ###
+UI Setup
+
+1. install node js [Installation](#installation)
+1. verify node js installation - open terminal and execute version (node -v)
+1. Install Angular CLI - open terminal and execute (npm install -g @angular/cli)  More help and documents - [Useful Links](#useful-links)
+1. verfiy cli installation - open terminal and execute version (ng -v)
+1. open cra app in terminal (/skunkworks-insider/src/internaltools/apps/cra-app)
+1. start application - in terminal execute (ng serve)
+1. validate - open in browser http://localhost:4200/
+1. Change Port if reqd - (ng serve --host 0.0.0.0 --port 4201)
+
 
 [Top](#top)
 
@@ -183,6 +194,6 @@ Browse the results at http://localhost:9000 (default System administrator creden
 
 ### Useful Links ###
 
-1.angular-cli Installation & Additional Commands <a href="https://github.com/angular/angular-cli/wiki">here</a>
+1.angular-cli Installation & Additional Commands <a href="https://github.com/angular/angular-cli/wiki">here</a> and <a href="https://github.com/angular/angular-cli"> here</a>
 
 [Top](#top)
