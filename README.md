@@ -93,7 +93,13 @@ Json Schema:
 
 
 ### CRA REST Service ###
+Service: Change host name and port based on your application configuration
 
+1.GET All - (local - from eclipse) http://localhost:8081/cra/ (Tomcat or QAP) http://localhost:8080/api/cra/
+1.GET - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
+1.POST - (local - from eclipse) http://localhost:8081/cra/ (Tomcat or QAP) http://localhost:8080/api/cra/   
+1.PUT  - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
+1.DELTE - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
 
 [Top](#top)
 
@@ -117,10 +123,17 @@ Format & Save Actions for Java/Java Script/Type Script:
 
 ### Tomcat Setup ###
 
+1.Install tomcat - [Installation](#installation)
+1.Copy api.war and cra.war to webapps folder 
+1.http://localhost:8080/api/cra/  for service
+1.http://localhost:8080/cra/ for UI
+
 [Top](#top)
 
 
 ### Postman Setup ###
+1. install postman - [Installation](#installation)
+1. All operation requires SM_USER header param - Add key SM_USER and Value <NETWORK ID>
 
 [Top](#top)
 
