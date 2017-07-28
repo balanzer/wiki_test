@@ -133,7 +133,9 @@ C:\sonarqube\bin\windows-x86-xx\StartSonar.bat
 On other operating system, execute:
 /etc/sonarqube/bin/[OS]/sonar.sh console
 ```
-1.Browse the results at http://localhost:9000 (default System administrator credentials are admin/admin)
+Browse the results at http://localhost:9000 (default System administrator credentials are admin/admin)
+
+*We dont need sonar scanner
 
 [Top](#top)
 
