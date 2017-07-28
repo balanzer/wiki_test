@@ -77,6 +77,10 @@ Sonarqube:
 
 ### Code Coverage ###
 
+Eclemma:
+1. install Eclemma for eclipse - <a href ="http://www.eclemma.org/installation.html">setup & run</a>
+2. Jacoco report - Right Click Project->Run as ->Maven test. Jacoco output report will be generated in target directory under jacoco-ut folder
+3. Clicking on each method in above figure gives detailed report
 
 [Top](#top)
 
@@ -104,7 +108,10 @@ Json Schema:
 
 
 ### Eclipse Setup ###
+Format & Save Actions for Java/Java Script/Type Script: 
 
+1. Format & Cleanups - import confiurations from skunkworks-insider\eclipse_format
+1. Save Actions - Refer Murali eclipse setup for now(To be added asap)
 
 [Top](#top)
 
@@ -152,4 +159,5 @@ Browse the results at http://localhost:9000 (default System administrator creden
 ### Useful Links ###
 
 1.angular-cli Installation & Additional Commands <a href="https://github.com/angular/angular-cli/wiki">here</a>
+
 [Top](#top)
