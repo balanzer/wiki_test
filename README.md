@@ -13,7 +13,7 @@
 1. [Tomcat Setup](#tomcat-setup)
 1. [Postman Setup](#postman-setup)
 1. [Installation](#installation)
-
+1. [Useful Links](#useful-links)
 ### Build ###
 
 Maven: Builds REST Service & Angular Project 
@@ -81,7 +81,9 @@ Sonarqube:
 [Top](#top)
 
 ### JSON Validation ###
+Json Schema: 
 
+1. Create Schema(For validation) <a href="https://jsonschema.net/#/editor">jsonschema</a>
 
 [Top](#top)
 
@@ -117,6 +119,14 @@ Sonarqube:
 
 
 ### Installation ###
+Softwares:
+1.Java 8 <a href="https://java.com/en/download/manual.jsp">here<a>
+1.Eclipse Neon <a href="https://www.eclipse.org/downloads/packages/release/neon/3">here</a>
+1.Tomcat 9 <a href="https://tomcat.apache.org/">here</a>
+1.Postman <a href="https://www.getpostman.com/apps">here</a>
+1.NodeJS <a href="https://nodejs.org/en/">here</a> v6.11.* or higher
+1.Angular CLI <a href="https://cli.angular.io/">here</a>
+
 
 [Top](#top)
 
@@ -139,4 +149,7 @@ Browse the results at http://localhost:9000 (default System administrator creden
 
 [Top](#top)
 
+### Useful Links ###
 
+1.angular-cli Installation & Additional Commands <a href="https://github.com/angular/angular-cli/wiki">here</a>
+[Top](#top)
