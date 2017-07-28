@@ -15,6 +15,27 @@
 
 ### Build ###
 
+Maven: Builds REST Service & Angular Project 
+```xml
+	<modules>
+		<module>domain</module>
+		<module>email-service</module>
+		<module>dao-jpa-impl</module>
+		<module>services</module>
+		<module>service-impl</module>
+		<module>api</module>
+		<module>apps</module>
+	</modules>
+```
+
+Maven Build: Commands
+```xml
+mvn clean install  - for complete build (will not run integration tests)
+
+mvn install -Dmaven.test.skip=true (to skip unit tests)
+
+```
+
 [Top](#top)
 
 ### Testing ###
