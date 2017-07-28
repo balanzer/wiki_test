@@ -12,6 +12,7 @@
 1. [Eclipse Setup](#eclipse-setup)
 1. [Tomcat Setup](#tomcat-setup)
 1. [Postman Setup](#postman-setup)
+1. [Installation](#installation)
 
 ### Build ###
 
@@ -51,7 +52,7 @@ mvn integration-test -P integration -Dserver.port=8081 -Dserver.host=http://loca
 
 ### Sonar ###
 
-Integration Tests: To run integration tests from command line
+Sonar report: 
 ```xml
 mvn clean install 
 
@@ -61,9 +62,18 @@ or
 
 mvn clean verify sonar:sonar	
 ```
+[Sonar Installation](#sonar-installation)  [Sonar Report](#sonar-report)
 
 [Top](#top)
 
+### Sonar Report ###
+
+Sonarqube: 
+1. Start Sonarqube 
+1. Run [Sonar](#sonar)
+1. Open <a href='http://localhost:9000/'>Sonar Report</a> 
+
+[Top](#top)
 
 ### Code Coverage ###
 
@@ -104,3 +114,15 @@ mvn clean verify sonar:sonar
 ### Postman Setup ###
 
 [Top](#top)
+
+
+### Installation ###
+
+[Top](#top)
+
+
+### Sonar Installation ###
+
+[Top](#top)
+
+
