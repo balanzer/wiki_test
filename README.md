@@ -40,9 +40,27 @@ mvn install -Dmaven.test.skip=true (to skip unit tests)
 
 ### Testing ###
 
+Integration Tests: To run integration tests from command line
+```xml
+mvn integration-test -P integration
+
+mvn integration-test -P integration -Dserver.port=8081 -Dserver.host=http://localhost   - this command you can use if the host or port number is different from default.
+```
+
 [Top](#top)
 
 ### Sonar ###
+
+Integration Tests: To run integration tests from command line
+```xml
+mvn clean install 
+
+mvn sonar:sonar 
+
+or 
+
+mvn clean verify sonar:sonar	
+```
 
 [Top](#top)
 
