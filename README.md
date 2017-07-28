@@ -95,11 +95,11 @@ Json Schema:
 ### CRA REST Service ###
 Service: Change host name and port based on your application configuration
 
-1.GET All - (local - from eclipse) http://localhost:8081/cra/ (Tomcat or QAP) http://localhost:8080/api/cra/
-1.GET - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
-1.POST - (local - from eclipse) http://localhost:8081/cra/ (Tomcat or QAP) http://localhost:8080/api/cra/   
-1.PUT  - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
-1.DELTE - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
+1. GET All - (local - from eclipse) http://localhost:8081/cra/ (Tomcat or QAP) http://localhost:8080/api/cra/
+1. GET - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
+1. POST - (local - from eclipse) http://localhost:8081/cra/ (Tomcat or QAP) http://localhost:8080/api/cra/   
+1. PUT  - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
+1. DELTE - (local - from eclipse) http://localhost:8081/cra/1 (Tomcat or QAP) http://localhost:8080/api/cra/1 
 
 [Top](#top)
 
@@ -123,10 +123,10 @@ Format & Save Actions for Java/Java Script/Type Script:
 
 ### Tomcat Setup ###
 
-1.Install tomcat - [Installation](#installation)
-1.Copy api.war and cra.war to webapps folder 
-1.http://localhost:8080/api/cra/  for service
-1.http://localhost:8080/cra/ for UI
+1. Install tomcat - [Installation](#installation)
+1. Copy api.war and cra.war to webapps folder 
+1. http://localhost:8080/api/cra/  for service
+1. http://localhost:8080/cra/ for UI
 
 [Top](#top)
 
@@ -139,13 +139,15 @@ Format & Save Actions for Java/Java Script/Type Script:
 
 
 ### Installation ###
+
 Softwares:
-1.Java 8 <a href="https://java.com/en/download/manual.jsp">here<a>
-1.Eclipse Neon <a href="https://www.eclipse.org/downloads/packages/release/neon/3">here</a>
-1.Tomcat 9 <a href="https://tomcat.apache.org/">here</a>
-1.Postman <a href="https://www.getpostman.com/apps">here</a>
-1.NodeJS <a href="https://nodejs.org/en/">here</a> v6.11.* or higher
-1.Angular CLI <a href="https://cli.angular.io/">here</a>
+
+1. Java 8 <a href="https://java.com/en/download/manual.jsp">here<a>
+1. Eclipse Neon <a href="https://www.eclipse.org/downloads/packages/release/neon/3">here</a>
+1. Tomcat 9 <a href="https://tomcat.apache.org/">here</a>
+1. Postman <a href="https://www.getpostman.com/apps">here</a>
+1. NodeJS <a href="https://nodejs.org/en/">here</a> v6.11.* or higher
+1. Angular CLI <a href="https://cli.angular.io/">here</a>
 
 
 [Top](#top)
